@@ -1,9 +1,0 @@
-| Datum      | Version | Zusammenfassung                                                                                                                                                                   |
-| ---------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 02.05.2023 | 0.0.1   | Wir haben zusammen verschiedene Vorschläge gesammelt und uns für einen Restaurantvergleichswebsite entschieden.                                                                   |
-| 09.05.2023 | 0.0.2   | Wir haben heute die Projektdokumentation bis zur Nummer 4 ausgefüllt und haben angefangen unser Projekt zu realisieren.                                                           |
-| 16.05.2023 | 0.0.3   | Wir haben verschiedene Restaurants in die Startseite eingefügt und mit Hyperlinks verbunden.                                                                                      |
-| 23.05.2023 | 0.0.4   | Wir haben die Filterfunktion angefangen zu implementieren und wir haben an dem Design der Website gearbeitet. Wor haben uns auch überlegt, wie wird Rezensionen einfügen möchten. |
-| 30.05.2023 | 0.0.5   | Wir haben die Filterfunktion und die Rezensionen fertig gestellt und wir haben Animationen hinzugefügt.                                                                           |
-| 06.06.2023 | 0.0.6   | Wir haben heute vor allem die Mobile-Version fertiggestellt, die Desktop-Version versuchten wir zu formatieren.                                                                   |
-| 13.06.2023 | 0.0.7   | Wir haben die Desktopversion besser formatiert und wir haben die Präsentation vorbereitet                                                                                         |
