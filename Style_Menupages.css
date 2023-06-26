@@ -1,0 +1,152 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto auto auto;
+}
+
+.backbutton {
+  grid-row: 2;
+  grid-column: 1;
+  max-width: 20%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-height: 25px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.backbutton p {
+  color: black;
+  transition: color 0.1s ease, transform 0.1s ease; /* Hinzugefügte transform-Transition */
+  text-align: center;
+  font-size: 20px;
+}
+
+.backbutton p:hover {
+  color: var(--accent-color);
+  transform: scale(1.1); /* Vergrößerung des Texts bei Hover */
+}
+
+a:hover {
+  color: var(--accent-color);
+}
+
+.menu {
+  grid-row: 3;
+  grid-column: 1;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background-color: var(--primary-color);
+}
+
+.menu li {
+  font-size: 20px;
+}
+
+.bildmenu {
+  grid-row: 3;
+  grid-column: 2;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.bildmenu img {
+  max-width: 100%;
+  max-height: 100%;
+  align-self: center;
+}
+
+.paragraph {
+  font-size: 20px;
+}
+
+ul {
+  margin: 0 auto;
+  height: 100%;
+}
+
+li {
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 20px auto 20px;
+    grid-template-rows: auto auto auto auto auto;
+  }
+
+  .backbutton {
+    grid-row: 2;
+    grid-column: 2;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .backbutton p {
+    color: black;
+  }
+
+  .menu {
+    grid-row: 4;
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: var(--accent-color);
+  }
+
+  .bildmenu {
+    background-color: #fff;
+    grid-row: 3;
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  .bildmenu img {
+    max-width: 100%;
+    max-height: 100%;
+    align-self: center;
+  }
+
+  .paragraph {
+    font-size: 20px;
+    color: var(--accent-color);
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  ul {
+    color: black;
+    margin: 0 auto;
+    background-color: var(--accent-color);
+    height: 100%;
+  }
+
+  li {
+    align-items: center;
+  }
+
+  a:link,
+  a:visited {
+    color: var(--secondary-color);
+  }
+}
